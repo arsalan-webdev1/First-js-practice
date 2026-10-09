@@ -31,7 +31,30 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof heros)
-console.log(typeof anotherId)
-console.log(typeof myObj)
-console.log(typeof myFunction)
+// console.log(typeof heros)
+// console.log(typeof anotherId)
+// console.log(typeof myObj)
+// console.log(typeof myFunction)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) and Heap Memory (Non-Primitive)
+
+let Myyoutubename = "Arsalandotcom"
+
+let anotherName = Myyoutubename
+anotherName = "Arsalan"
+
+// console.log(Myyoutubename)
+// console.log(anotherName)
+
+let userOne = {
+    email: "arsalan@google.com",
+    upi: "arsalan@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "arsalan@outlook.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
